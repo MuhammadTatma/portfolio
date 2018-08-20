@@ -820,11 +820,11 @@ video {
 }
 
 .bg-hero-pattern {
-  background-image: url('/dist/images/hero-background.png');
+  background-image: url('dist/images/hero-background.png');
 }
 
 .bg-skill-pattern {
-  background-image: url('/dist/images/skill-background.png');
+  background-image: url('dist/images/skill-background.png');
 }
 
 .bg-cover {
