@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.burger-line{
+  @apply w-[29px] h-[2px] my-2 block bg-black;
+}
+
+.hamburger-active > span:nth-child(1){
+  @apply rotate-45 
+}
+.hamburger-active > span:nth-child(3){
+  @apply -rotate-45 
+}
+.hamburger-active > span:nth-child(2){
+  @apply scale-0
+}
+
+.navbar-fixed{
+  @apply fixed z-50 bg-white bg-opacity-70 backdrop-blur-md drop-shadow-md
+  /* backdrop-filter: */
+}
