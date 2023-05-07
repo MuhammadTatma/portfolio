@@ -7,6 +7,5 @@ handlers:
   static_files: src/index.html
   upload: src/index.html
 
-- url: /(.*)
-  static_files: src/\1
-  upload: src/(.*)
+- url: /dist
+  static_dir: dist
