@@ -15,8 +15,8 @@ module.exports = {
         '2xl': '1320px'
       },
       backgroundImage: {
-        'hero-pattern': "url('/dist/images/hero-background.png')",
-        'skill-pattern': "url('/dist/images/skill-background.png')",
+        'hero-pattern': "url('dist/images/hero-background.png')",
+        'skill-pattern': "url('dist/images/skill-background.png')",
       }
     },
   },
